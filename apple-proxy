@@ -1,0 +1,8 @@
+  payload:
+  # Apple 服务规则 Proxy
+  - DOMAIN-SUFFIX,apple.com
+  - DOMAIN-SUFFIX,icloud.com
+  - DOMAIN-SUFFIX,appstore.com
+  - DOMAIN-SUFFIX,itunes.com
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,apple-cloudkit.com
