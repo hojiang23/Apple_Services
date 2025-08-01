@@ -28,6 +28,8 @@ rules:
   - DOMAIN-SUFFIX,apple-cloudkit.com,国外流量
   - DOMAIN-SUFFIX,appleintelligence.com,ChatGPT及其他AI
   - DOMAIN-SUFFIX,apple-ai.com,ChatGPT及其他AI
+  - DOMAIN,apple-relay.apple.com,ChatGPT及其他AI
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com,ChatGPT及其他AI
   - IP-CIDR,17.0.0.0/8,Apple,no-resolve
   
 ##- SCRIPT,quic,REJECT #shortcuts rule
