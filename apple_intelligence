@@ -1,0 +1,4 @@
+  payload:
+  # Apple 服务规则 ChatGTP
+  - DOMAIN-SUFFIX,appleintelligence.com
+  - DOMAIN-SUFFIX,apple-ai.com
