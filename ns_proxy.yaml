@@ -1,3 +1,7 @@
 payload:
-- SRC-IP-CIDR,ns-lan-ip/32
+  # 指定 Switch 的 IP 走代理
+- SRC-IP-CIDR,172.31.0.227/32   # 替换为你的 Switch IP
+  # 任天堂服务域名代理（加速下载/联机）
 - DOMAIN-SUFFIX,nintendo.net
+- DOMAIN-SUFFIX,nintendo.com
+- DOMAIN-SUFFIX,npns.jp
