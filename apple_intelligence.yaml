@@ -2,5 +2,5 @@
   # Apple 服务规则 ChatGTP
   - DOMAIN-SUFFIX,appleintelligence.com
   - DOMAIN-SUFFIX,apple-ai.com
-  - DOMAIN,apple-relay.apple.com
+  - DOMAIN-SUFFIX,apple-relay.apple.com
   - DOMAIN-SUFFIX,apple-relay.cloudflare.com
