@@ -1,2 +1,3 @@
 payload:
 - SRC-IP-CIDR,ns-lan-ip/32
+- DOMAIN-Suffix,nintendo.net
