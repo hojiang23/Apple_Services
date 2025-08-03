@@ -13,7 +13,7 @@
 - DOMAIN-SUFFIX,apple-ai.com,ChatGPT及其他AI
 - DOMAIN,apple-relay.apple.com,ChatGPT及其他AI
 - DOMAIN,apple-relay.cloudflare.com,ChatGPT及其他AI
-- IP-CIDR,172.0.0.0/8,Apple,no-resolve
+- IP-CIDR,172.0.0.0/8,国外流量,no-resolve
 - SRC-IP-CIDR,192.168.31.182/32 # 替换为你的 Switch IP
 # 任天堂服务域名代理（加速下载/联机）
 - DOMAIN-SUFFIX,nintendo.net,国外流量
