@@ -1,8 +1,49 @@
   payload:
   # Apple 服务规则 Proxy
-  - DOMAIN-SUFFIX,apple.com
-  - DOMAIN-SUFFIX,icloud.com
-  - DOMAIN-SUFFIX,appstore.com
-  - DOMAIN-SUFFIX,itunes.com
-  - DOMAIN-SUFFIX,apple-dns.net
-  - DOMAIN-SUFFIX,apple-cloudkit.com
+  - DOMAIN-SUFFIX,appleintelligence.com
+  - DOMAIN-SUFFIX,apple-ai.com
+  - DOMAIN,apple-relay.apple.com
+  - DOMAIN,apple-relay.cloudflare.com
+  - DOMAIN-SUFFIX,apple.com,国外流量
+  - DOMAIN-SUFFIX,icloud.com,国外流量
+  - DOMAIN-SUFFIX,appstore.com,国外流量
+  - DOMAIN-SUFFIX,itunes.com,国外流量
+  - DOMAIN-SUFFIX,apple-dns.net,国外流量
+  - DOMAIN,gs.apple.com,DIRECT
+  - DOMAIN-SUFFIX,advertising.apple.com,REJECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,国外流量
+  - DOMAIN-SUFFIX,appleintelligence.com,ChatGPT及其他AI
+  - DOMAIN-SUFFIX,apple-ai.com,ChatGPT及其他AI
+  - DOMAIN,apple-relay.apple.com,ChatGPT及其他AI
+  - DOMAIN-SUFFIX,apple-relay.cloudflare.com,ChatGPT及其他AI
+  - IP-CIDR,17.0.0.0/8,Apple,no-resolve
+  - SRC-IP-CIDR,172.31.0.227/32   # 替换为你的 Switch IP
+  # 任天堂服务域名代理（加速下载/联机）
+  - DOMAIN-SUFFIX,nintendo.net
+  - DOMAIN-SUFFIX,nintendo.com
+  - DOMAIN-SUFFIX,npns.jp
+
+
+  # Apple ............ Proxy                                                       
+- DOMAIN-SUFFIX,appleintelligence.com,ChatGPT.........AI        
+- DOMAIN-SUFFIX,apple-ai.com,ChatGPT.........AI
+- DOMAIN,apple-relay.apple.com,ChatGPT.........AI
+- DOMAIN,apple-relay.cloudflare.com,ChatGPT.........AI
+- DOMAIN-SUFFIX,apple.com,............  
+- DOMAIN-SUFFIX,icloud.com,............  
+- DOMAIN-SUFFIX,appstore.com,............  
+- DOMAIN-SUFFIX,itunes.com,............    
+- DOMAIN-SUFFIX,apple-dns.net,............  
+- DOMAIN,gs.apple.com,DIRECT                
+- DOMAIN-SUFFIX,advertising.apple.com,REJECT  
+- DOMAIN-SUFFIX,apple-cloudkit.com,............  
+- DOMAIN-SUFFIX,appleintelligence.com,ChatGPT.........AI  
+- DOMAIN-SUFFIX,apple-ai.com,ChatGPT.........AI           
+- DOMAIN,apple-relay.apple.com,ChatGPT.........AI  
+- DOMAIN-SUFFIX,apple-relay.cloudflare.com,ChatGPT.........AI  
+- IP-CIDR,172.0.0.0/8,Apple,no-resolve                         
+- SRC-IP-CIDR,192.168.31.182/32   # ............... Switch IP
+# ........................................../.........       
+- DOMAIN-SUFFIX,nintendo.net,............               
+- DOMAIN-SUFFIX,nintendo.com,............
+- DOMAIN-SUFFIX,npns.jp,............ 
